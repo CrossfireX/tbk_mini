@@ -1,0 +1,19 @@
+# This file intentionally left blank
+SERIAL_DRIVER = vendor
+SPLIT_KEYBOARD = yes
+
+# OLED_ENABLE = yes
+# OLED_DRIVER = SSD1306
+
+WPM_ENABLE = yes
+# WS2812_DRIVER = vendor
+
+OPT_DEFS += -DHAL_USE_I2C=TRUE
+
+# POINTING_DEVICE_ENABLE = yes
+# POINTING_DEVICE_DRIVER = pimoroni_trackball
+
+# ENCODER_ENABLE = yes
+# EXTRAKEY_ENABLE = yes
+# ENCODER_MAP_ENABLE = yes
+# OLED_DRIVER_ENABLE = yes
